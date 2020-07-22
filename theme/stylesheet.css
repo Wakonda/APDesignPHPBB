@@ -1,0 +1,312 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:		ne-blackgreen
+	Based on style:		prosilver	
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
+	Modified by:		Bernhard ( http://www.nachtelb.de/ )
+    --------------------------------------------------------------
+*/
+
+@import url("../../prosilver/theme/stylesheet.css?v=3.3");
+
+html {
+	height: auto;
+	background-color: black;
+}
+
+html, body {
+    color: #78b36a;
+    background-color: #000000;
+}
+
+a {
+    color: #72da00;
+}
+
+.headerbar, .forumbg {
+    background-color: #98eb12;
+    background-image: linear-gradient(to bottom, #96ff6a 0%,#8eb100 2px,#b6eb12 92px,#aceb12 100%);
+    background-repeat: repeat-x;
+}
+
+.forabg {
+    background-color: #c3d000;
+    background-image: linear-gradient(to bottom, #daff6a 0%,#bcde00 2px,#96b100 92px,#6db100 100%);
+    background-repeat: repeat-x;
+}
+
+li.header dt, li.header dd {
+    color: #000000;
+}
+
+table.table1 thead th {
+    color: black;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.wrap {
+    background-color: #313131;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    padding: 4px 13px 0 10px;
+}
+
+.site_logo {
+    background-image: url(images/logo.png);
+    background-position-y: center;
+    background-size: contain;
+width: 77px;
+    height: 65px;
+}
+
+.forumbg .header a, .forabg .header a, th a {
+    color: #000000;
+}
+
+ul.forums {
+    background-image: linear-gradient(to bottom, #000000 0%,#000000 100%);
+}
+
+li.row {
+    border-bottom: 1px solid #a7a7a7;
+    border-top-color: initial;
+    border-bottom-color: initial;
+}
+
+label {
+    color: #79c189;
+}
+
+li.row:hover {
+    background-color: #353535;
+}
+
+h3 {
+    color: #8fca00;
+}
+
+.copyright {
+    color: #cccccc;
+}
+
+ul.topiclist li {
+    color: #78b36a;
+}
+
+ul.topiclist dd {
+    border-left-color: #6f6e6e;
+}
+
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover {
+    color: #5a5a5a;
+}
+
+.dropdown .dropdown-contents {
+    background: #000;
+}
+
+.bg1, .bg2 {
+    background-color: #000000;
+}
+
+.content {
+    color: #cecece;
+}
+
+.postbody {
+    color: #969696;
+}
+
+.postprofile strong {
+    color: #cccccc;
+}
+
+.postprofile {
+    color: #9c9c9c;
+}
+
+.panel {
+    background-color: #000000;
+    color: #758eb5;
+}
+
+h2 {
+    color: #6181b3;
+}
+
+dl.faq dt {
+    color: #ffffff;
+}
+
+.content h2, .panel h2 {
+    color: #58a6ff;
+}
+
+.jumpbox-cat-link {
+    background-color: #333333;
+}
+
+.jumpbox-sub-link {
+    background-color: #000000;
+}
+
+.jumpbox-cat-link:hover {
+    background-color: #717171;
+}
+
+.jumpbox-sub-link:hover {
+    background-color: #383838;
+}
+
+dd label {
+    color: #ababab;
+}
+
+fieldset dl:hover dt label {
+    color: #968888;
+}
+
+.forum_read {
+    background-image: url(./images/forum_read.svg);
+}
+
+.forum_unread {
+    background-image: url(./images/forum_unread.svg);
+}
+
+.topic_unread_mine {
+    background-image: url(./images/topic_unread_mine.svg);
+}
+
+.username-coloured {
+    color: #ef0000 !important;
+}
+
+table.table1 tbody td {
+    border: none;
+}
+
+table.table1 tbody tr {
+    border: none;
+}
+
+table.table1 tbody tr:hover, table.table1 tbody tr.hover{
+	background-color: #353535;
+}
+
+table.table1 td {
+    color: #8fafe6;
+}
+
+.cp-main .content {
+    color: #333333;
+}
+
+dl.details dt {
+    color: #dadada;
+}
+
+dl.details dd {
+    color: #9fbcf1;
+}
+
+span.forum-image img {
+width: min-content;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+li.row strong {
+    color: #54aeb7;
+}
+
+.post:target .content {
+    color: #cecece;
+}
+
+/* Forum icons & Topic icons */
+.global_read						{ background-image: url("./images/announce_read.svg"); }
+.global_read_mine					{ background-image: url("./images/announce_read_mine.svg"); }
+.global_read_locked					{ background-image: url("./images/announce_read_locked.svg"); }
+.global_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.svg"); }
+.global_unread						{ background-image: url("./images/announce_unread.svg"); }
+.global_unread_mine					{ background-image: url("./images/announce_unread_mine.svg"); }
+.global_unread_locked				{ background-image: url("./images/announce_unread_locked.svg"); }
+.global_unread_locked_mine			{ background-image: url("./images/announce_unread_locked_mine.svg"); }
+
+.announce_read						{ background-image: url("./images/announce_read.svg"); }
+.announce_read_mine					{ background-image: url("./images/announce_read_mine.svg"); }
+.announce_read_locked				{ background-image: url("./images/announce_read_locked.svg"); }
+.announce_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.svg"); }
+.announce_unread					{ background-image: url("./images/announce_unread.svg"); }
+.announce_unread_mine				{ background-image: url("./images/announce_unread_mine.svg"); }
+.announce_unread_locked				{ background-image: url("./images/announce_unread_locked.svg"); }
+.announce_unread_locked_mine		{ background-image: url("./images/announce_unread_locked_mine.svg"); }
+
+.forum_link							{ background-image: url("./images/forum_link.svg"); }
+.forum_read							{ background-image: url("./images/forum_read.svg"); }
+.forum_read_locked					{ background-image: url("./images/forum_read_locked.svg"); }
+.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.svg"); }
+.forum_unread						{ background-image: url("./images/forum_unread.svg"); }
+.forum_unread_locked				{ background-image: url("./images/forum_unread_locked.svg"); }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.svg"); }
+
+.sticky_read						{ background-image: url("./images/sticky_read.svg"); }
+.sticky_read_mine					{ background-image: url("./images/sticky_read_mine.svg"); }
+.sticky_read_locked					{ background-image: url("./images/sticky_read_locked.svg"); }
+.sticky_read_locked_mine			{ background-image: url("./images/sticky_read_locked_mine.svg"); }
+.sticky_unread						{ background-image: url("./images/sticky_unread.svg"); }
+.sticky_unread_mine					{ background-image: url("./images/sticky_unread_mine.svg"); }
+.sticky_unread_locked				{ background-image: url("./images/sticky_unread_locked.svg"); }
+.sticky_unread_locked_mine			{ background-image: url("./images/sticky_unread_locked_mine.svg"); }
+
+.topic_moved						{ background-image: url("./images/topic_moved.svg"); }
+.pm_read,
+.topic_read							{ background-image: url("./images/topic_read.svg"); }
+.topic_read_mine					{ background-image: url("./images/topic_read_mine.svg"); }
+.topic_read_hot						{ background-image: url("./images/topic_read_hot.svg"); }
+.topic_read_hot_mine				{ background-image: url("./images/topic_read_hot_mine.svg"); }
+.topic_read_locked					{ background-image: url("./images/topic_read_locked.svg"); }
+.topic_read_locked_mine				{ background-image: url("./images/topic_read_locked_mine.svg"); }
+.pm_unread,
+.topic_unread						{ background-image: url("./images/topic_unread.svg"); }
+.topic_unread_mine					{ background-image: url("./images/topic_unread_mine.svg"); }
+.topic_unread_hot					{ background-image: url("./images/topic_unread_hot.svg"); }
+.topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot_mine.svg"); }
+.topic_unread_locked				{ background-image: url("./images/topic_unread_locked.svg"); }
+.topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.svg"); }
+
+.site-description h1 {
+    color: #FFFFFF;
+    font-family: serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 2.5em;
+}
+.site-description p {
+	font-size: 1.4em;
+    font-family: serif;
+    color: black;
+    font-style: italic;
+}
+
+.postlink, .postlink:visited {
+    border: none;
+    color: #66abe6;
+    text-decoration: underline;
+}
+
+.postlink:hover {
+    background-color: initial;
+    color: #5b9dd6 !important;
+}
+
+.post:target h3 a {
+    color: inherit;
+}

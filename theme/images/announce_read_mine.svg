@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #196db5;
+      }
+
+      .cls-2 {
+        fill: #bad3e8;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: url(#Nepojmenovaný_přechod_9);
+      }
+
+      .cls-5 {
+        fill: #666;
+      }
+
+      .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-7 {
+        fill: #bc2a4d;
+      }
+    </style>
+    <linearGradient id="Nepojmenovaný_přechod_9" data-name="Nepojmenovaný přechod 9" x1="63.74" y1="-30.08" x2="63.74" y2="-31.08" gradientTransform="matrix(25, 0, 0, -25, -1578.5, -748.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dbdee3"/>
+      <stop offset="1" stop-color="#fdfdfd"/>
+    </linearGradient>
+  </defs>
+  <title>Datový zdroj 27</title>
+  <g id="Vrstva_2" data-name="Vrstva 2">
+    <g id="Vrstva_1-2" data-name="Vrstva 1">
+      <g id="read">
+        <g id="announce_read_mine" data-name="announce read mine">
+          <g>
+            <path class="cls-1" d="M30,16A15,15,0,1,1,15,1,15,15,0,0,1,30,16"/>
+            <path class="cls-2" d="M29,16A14,14,0,1,1,15,2,14,14,0,0,1,29,16"/>
+            <path class="cls-3" d="M28.5,16A13.5,13.5,0,1,1,15,2.5,13.49,13.49,0,0,1,28.5,16"/>
+            <path class="cls-4" d="M27.5,16A12.5,12.5,0,1,1,15,3.5,12.5,12.5,0,0,1,27.5,16"/>
+          </g>
+          <path id="Shape-Copy-2" class="cls-5" d="M17.65,8a2.18,2.18,0,0,0-2.22,2,1.62,1.62,0,0,0,1.73,1.65,2.22,2.22,0,0,0,2.34-2A1.66,1.66,0,0,0,17.65,8Zm-3.94,6.14c.24,0,.49.22.24.65l-2,4.28a13.87,13.87,0,0,0-1.11,3.61c0,.88.74,1.32,1.73,1.32,2.83,0,6-3.07,6-3.73,0-.22-.25-.32-.37-.32C17.9,20,16.42,22,15.55,22c-.24,0-.37-.11-.37-.33a2.27,2.27,0,0,1,.62-1.32l2-4.82c1-2.41-.24-3.07-1.48-3.07a7,7,0,0,0-4.19,1.65c-.37.33-1.6,1.31-1.6,1.75a.37.37,0,0,0,.37.33C11.36,16.22,12.72,14.14,13.71,14.14Z"/>
+          <g id="star-copy-17">
+            <path class="cls-6" d="M22.43,6.72l-.84,5.15L26,9.43l3.22,1.79a15.07,15.07,0,0,0-7.33-8.55l-3,.45Z"/>
+            <path class="cls-7" d="M26,8.29,29.09,10,28.5,6.38,31,3.82l-3.45-.53L26,0,24.45,3.29,21,3.82l2.5,2.56L22.91,10Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

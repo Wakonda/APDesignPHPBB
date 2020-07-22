@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #196db5;
+      }
+
+      .cls-3 {
+        fill: #bad3e8;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: url(#Nepojmenovaný_přechod_16);
+      }
+
+      .cls-6 {
+        fill: #666;
+      }
+
+      .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        fill: url(#Nepojmenovaný_přechod_16-2);
+      }
+    </style>
+    <linearGradient id="Nepojmenovaný_přechod_16" data-name="Nepojmenovaný přechod 16" x1="45.22" y1="33.92" x2="45.22" y2="32.92" gradientTransform="matrix(25, 0, 0, -25, -1114.5, 851.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dbdee3"/>
+      <stop offset="1" stop-color="#fdfdfd"/>
+    </linearGradient>
+    <linearGradient id="Nepojmenovaný_přechod_16-2" x1="33.34" y1="50.11" x2="33.34" y2="49.11" gradientTransform="matrix(9.5, 0, 0, -9.5, -291.75, 496.25)" xlink:href="#Nepojmenovaný_přechod_16"/>
+  </defs>
+  <title>Datový zdroj 9</title>
+  <g id="Vrstva_2" data-name="Vrstva 2">
+    <g id="Vrstva_1-2" data-name="Vrstva 1">
+      <g id="read">
+        <g id="forum_read_subforum" data-name="forum read subforum">
+          <path class="cls-1" d="M0,0H32V32H0Z"/>
+          <g>
+            <path class="cls-2" d="M31,16A15,15,0,1,1,16,1,15,15,0,0,1,31,16"/>
+            <path class="cls-3" d="M30,16A14,14,0,1,1,16,2,14,14,0,0,1,30,16"/>
+            <path class="cls-4" d="M29.5,16A13.5,13.5,0,1,1,16,2.5,13.49,13.49,0,0,1,29.5,16"/>
+            <path class="cls-5" d="M28.5,16A12.5,12.5,0,1,1,16,3.5,12.5,12.5,0,0,1,28.5,16"/>
+          </g>
+          <path class="cls-6" d="M16,9H8V8h8ZM8,11v1H24V11Zm16,3v1H8V14ZM8,18h8V17H8Zm9,3H8V20h9Zm-1,3H8V23h8Z"/>
+          <g id="circle-copy">
+            <path class="cls-7" d="M19.32,30.63A8,8,0,0,1,30.63,19.32,15,15,0,0,1,19.32,30.63Z"/>
+            <path id="Fill-1-Copy-4" class="cls-2" d="M32,25a7,7,0,1,1-7-7,7,7,0,0,1,7,7"/>
+            <path class="cls-3" d="M31,25a6,6,0,1,1-6-6,6,6,0,0,1,6,6"/>
+            <path class="cls-4" d="M30.5,25A5.5,5.5,0,1,1,25,19.5,5.5,5.5,0,0,1,30.5,25"/>
+            <path class="cls-8" d="M29.75,25A4.75,4.75,0,1,1,25,20.25,4.75,4.75,0,0,1,29.75,25"/>
+          </g>
+          <path id="Shape-Copy-23" class="cls-6" d="M25,23.5H22v-1h3Zm-3,1v1h6v-1Zm0,2v1h6v-1Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
